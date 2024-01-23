@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../images/campbell-3ZUsNJhi_Ik-unsplash.jpg" type="image/x-icon">
+    <title>Sign up</title>
+</head>
+<body>
+<style>
+    body{
+        background-image: url("../images/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    label{
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+}
+    input{
+        float: right;
+    color: #501313;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    }
+    title{
+        color: #2bef2b;
+    font-family:Jamrul;
+    font-size: 40px;
+    text-align: center;
+    }
+    button{
+    background-color: #1f1f1f;
+    color: #e89666;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+    #form-container{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1) ;
+    width: 400px;
+}
+    .form-group{
+    margin: 20px;
+}
+</style>
+<div id="form-container">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email">
+    </div>
+    <div class="form-group">
+        <label for="pass">Password:</label>
+        <input type="password" id="pass">
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </div>
+   <div class="form-group">
+        <label>Interest:</label>
+        <input type="checkbox" id="interest1" name="interest1">
+        <label for="interest1">Used Cars</label>
+         <input type="checkbox" id="interest2" name="interest1">
+        <label for="interest2">Brand new Cars</label>
+         <input type="checkbox" id="interest3" name="interest1">
+        <label for="interest3">Imported</label>
+       <input type="checkbox" id="interest4" name="interest1">
+        <label for="interest3">Customised</label>
+   </div>
+    <div class="form-group">
+         <button type="button"><a href="../Assets/Introduction.html">Register</a></button>
+    </div>
+    <div class="form-group">
+        <label for="sign in">If account exists</label>
+        <button type="button" id="sign in"><a href="../Assets/Sign%20in.html">SIGN IN</a></button>
+    </div>
+</body>
+</html>
